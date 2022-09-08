@@ -33,13 +33,13 @@
 }
 ul{
     list-style:none;
-    margin: 10px 0;
+
     width:80%;
     margin:20px auto;
 }
 li{
     border-left:4px solid gray;
-    margin-bottom:15px;
+    margin-bottom:20px;
     display:flex;
     justify-content:space-between;
     height:20px;
@@ -58,10 +58,10 @@ li{
 
 }
 .delete:hover{
-    background-color:rgb(251, 33, 251);
+    background-color:#654fef;
 }
 li:hover{
-    border-left-color:rgb(251, 33, 251);
+    border-left-color:#654fef;
 }
 .add-books input{
     border:2px 1olid gray;
@@ -88,15 +88,16 @@ input[type=text]{
     width:45px;
     position:relative;
     left:-9px;
-    top:-2px;
+    top:-1px;
     border-radius:0 5px 5px 0;
     transition:background 0.125s ease-out;
 }
 .button:hover{
-    background:rgb(159, 0, 159);
+    background:rgb(121, 39, 255);
 }
 #hiding{
     cursor:pointer;
+    margin-top:30px;
 }
 label{
     cursor:pointer;
